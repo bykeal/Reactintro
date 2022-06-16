@@ -2,7 +2,8 @@
 
 This project was created by me.
 
-## Available Scripts
+# Profile
+pen [http://localhost:3000](LinkedIN)
 
 In the project directory, you can run:
 
