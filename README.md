@@ -3,7 +3,7 @@
 This project was created by me.
 
 # Profile
-pen [http://localhost:3000](LinkedIN)
+ON [Linkedin](https://ng.linkedin.com/in/chibuike-okonkwo-a0b93a1a3)
 
 In the project directory, you can run:
 
