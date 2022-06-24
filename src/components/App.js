@@ -5,6 +5,7 @@ import './App.css';
 import Header from './Header';
 import AddContact from './AddContact';
 import ContactList from './ContactList';
+import ContactDetail from "./ContactDetail";
 
 function App() {
   const contactskey = "contacts";
@@ -39,6 +40,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<ContactList contacts={contacts} deleteHandler={RemoveContact}/>} />
           <Route path="/add" exact element={<AddContact addcontacthandler = {addcontacthandler} />} />
+          <Route path="/contact/:id" exact element={<ContactDetail />} />
         </Routes>
         {/* <AddContact addcontacthandler = {addcontacthandler}/> */}
         {/* <ContactList contacts={contacts} deleteHandler={RemoveContact}/> */}

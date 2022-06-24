@@ -8,7 +8,8 @@ const ContactCard = (props) => {
     <div className="item">
         <img className="ui avatar image" src={user3} alt="user" />
         <div className="content">
-            <Link to={`/contact/${id}`}>
+            {/* <Link to={`/contact/${id}`}> */}
+            <Link to={`/contact/${id}`} state={props.contacts}>
                 <div className="header">{name}</div>
                 <div>{email}</div>
             </Link>
