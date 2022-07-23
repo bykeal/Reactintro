@@ -90,7 +90,7 @@ function App() {
   }
 
   return (
-    <div className="ui container">
+    <div className="text-3xl font-bold underline">
       <Router>
         <Header />
         <Routes>
