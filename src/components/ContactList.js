@@ -28,10 +28,10 @@ const ContactList = (props) => {
     }
 
     return(
-        <div className="text-3xl font-bold underline" >
+        <div className="main" >
             <h2 style={{marginTop : '50px'}}>Contact List
                 <Link to="/add">
-                    <button className="">Add Contact</button>
+                    <button className="ui button blue right">Add Contact</button>
                 </Link>
             </h2>
             <div className="ui search">
@@ -40,7 +40,7 @@ const ContactList = (props) => {
                     <i className="search icon"></i>
                 </div>
             </div>
-            <div className="">
+            <div className="ui celled list">
                 {renderContactList.length > 0 
                     ? renderContactList
                     : "No Contacts available"
