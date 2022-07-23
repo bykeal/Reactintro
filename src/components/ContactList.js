@@ -29,7 +29,7 @@ const ContactList = (props) => {
 
     return(
         <div className="main" >
-            <h2 style={{marginTop : '50px'}}>Contact List
+            <h2 className="text-3xl font-bold underline" style={{marginTop : '50px'}}>Contact List
                 <Link to="/add">
                     <button className="ui button blue right">Add Contact</button>
                 </Link>
