@@ -28,8 +28,8 @@ const ContactList = (props) => {
     }
 
     return(
-        <div className="" >
-            <h2 className="py-12">Contact List
+        <div className="main" >
+            <h2 style={{marginTop : '50px'}}>Contact List
                 <Link to="/add">
                     <button className="ui button blue right">Add Contact</button>
                 </Link>
